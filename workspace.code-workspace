@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "hidefiles.configurationType": "local",
+    "hidefiles.globalConfig": {
+      "profiles": [
+        {
+          "name": "Default",
+          "detail": "",
+          "description": "Test",
+          "hidden": [".vscode/", "workspace.code-workspace", "resources.txt"]
+        },
+        {
+          "name": "Strict",
+          "detail": "Hide everything not immediately required",
+          "hidden": ["$Default"]
+        }
+      ]
+    },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/Thumbs.db": true,
+      ".vscode/": true,
+      "workspace.code-workspace": true,
+      "resources.txt": true,
+      "dist": true,
+      "node_modules": true,
+      "package-lock.json": true,
+      "tsconfig.build.json": true
+    },
+    "hidefiles.selectedProfile": "Default",
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "explorerExclude.backup": {}
+  }
+}
